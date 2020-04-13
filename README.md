@@ -4,7 +4,7 @@
 In ft_server, we set up a web server through Docker, using Nginx and Debian Buster. The server must run Wordpress, phpMyAdmin, and an SQL database. Scripts are used to create a fully-configured server at launch time. 
 ## Commands
 ```
-# Build image
+#Build image
 docker image build -t ft_server .
 
 # Run image with interactive and pseudo-terminal flags
