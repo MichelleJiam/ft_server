@@ -1,7 +1,9 @@
 # ft_server
 42/Codam ft_server, an introduction to Docker
 ## Description
-In ft_server, we set up a web server through Docker, using Nginx and Debian Buster. The server must run Wordpress, phpMyAdmin, and an SQL database. Scripts are used to create a fully-configured server at launch time. 
+In ft_server, we set up a web server through Docker, using Nginx and Debian Buster. The server must run Wordpress, phpMyAdmin, and an SQL database. Scripts are used to create a fully-configured server at launch time.
+Extra functionality: SSL key/certificate generation, Wordpress upload limit increase, Wordpress mailing
+
 ## Commands
 ```
 # Build image
