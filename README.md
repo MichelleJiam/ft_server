@@ -7,19 +7,20 @@ Extra functionality: SSL key/certificate generation, Wordpress upload limit incr
 
 ## Commands
 ```
-# Build image
-docker image build -t ft_server .
+# Build
+docker build -t ft_server .
 
-# Run image with interactive and pseudo-terminal flags
+# Run with interactive and pseudo-terminal flags
 docker run -p 80:80 -p 443:443 -it ft_server
-
-# Cleaning
-docker system prune -a
-docker image prune -a
 
 # Stop container
 docker container stop ft_server
 
-# Check running containers
+# Check running containers and images
 docker ps
+docker images
+
+# Cleaning out stopped containers, images, and cache. -a flag removes all unused images, not just dangling ones.
+docker system prune -a
+docker image prune -a
 ```
