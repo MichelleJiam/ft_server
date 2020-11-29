@@ -126,7 +126,7 @@ INSERT INTO `wp_options` (`option_id`, `option_name`, `option_value`, `autoload`
 (3, 'blogname', 'Bird is the Word', 'yes'),
 (4, 'blogdescription', 'Just another WordPress site', 'yes'),
 (5, 'users_can_register', '0', 'yes'),
-(6, 'admin_email', 'mjiam@student.codam.nl', 'yes'),
+(6, 'admin_email', 'user@site.com', 'yes'),
 (7, 'start_of_week', '1', 'yes'),
 (8, 'use_balanceTags', '0', 'yes'),
 (9, 'use_smilies', '1', 'yes'),
@@ -412,7 +412,7 @@ INSERT INTO `wp_serveroptions` (`option_id`, `option_name`, `option_value`, `aut
 (3, 'blogname', 'Bird is the Word', 'yes'),
 (4, 'blogdescription', 'Just another WordPress site', 'yes'),
 (5, 'users_can_register', '0', 'yes'),
-(6, 'admin_email', 'mjiam@student.codam.nl', 'yes'),
+(6, 'admin_email', 'user@site.com', 'yes'),
 (7, 'start_of_week', '1', 'yes'),
 (8, 'use_balanceTags', '0', 'yes'),
 (9, 'use_smilies', '1', 'yes'),
@@ -748,7 +748,7 @@ CREATE TABLE `wp_serverusers` (
 --
 
 INSERT INTO `wp_serverusers` (`ID`, `user_login`, `user_pass`, `user_nicename`, `user_email`, `user_url`, `user_registered`, `user_activation_key`, `user_status`, `display_name`) VALUES
-(1, 'root', '5f4dcc3b5aa765d61d8327deb882cf99', 'root', 'mjiam@student.codam.nl', '', '2020-02-24 12:29:25', '', 0, 'root');
+(1, 'root', '5f4dcc3b5aa765d61d8327deb882cf99', 'root', 'user@site.com', '', '2020-02-24 12:29:25', '', 0, 'root');
 
 -- --------------------------------------------------------
 
@@ -891,7 +891,7 @@ CREATE TABLE `wp_users` (
 --
 
 INSERT INTO `wp_users` (`ID`, `user_login`, `user_pass`, `user_nicename`, `user_email`, `user_url`, `user_registered`, `user_activation_key`, `user_status`, `display_name`) VALUES
-(1, 'root', '$P$BcfDq0fxtyrLhqWdKefEbDbLPFsN2Q0', 'root', 'mjiam@student.codam.nl', '', '2020-02-24 12:48:41', '', 0, 'root');
+(1, 'root', '$P$BcfDq0fxtyrLhqWdKefEbDbLPFsN2Q0', 'root', 'user@site.com', '', '2020-02-24 12:48:41', '', 0, 'root');
 
 --
 -- Indexes for dumped tables
